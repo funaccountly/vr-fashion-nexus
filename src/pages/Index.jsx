@@ -16,8 +16,7 @@ const Index = () => {
           </div>
         </div>
         <div className="absolute inset-0 opacity-50">
-          {/* Placeholder for VR-enabled slideshow */}
-          <img src="/placeholder.svg" alt="VR Slideshow" className="w-full h-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Fashion Hero" className="w-full h-full object-cover" />
         </div>
       </section>
 
@@ -36,19 +35,18 @@ const Index = () => {
           <h2 className="text-4xl font-bold mb-8 font-['Playfair_Display']">VR Dress Showcase</h2>
           <p className="text-xl mb-8">Experience our collection in a virtual dressing room. Mix and match items in various settings.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Placeholder for VR product showcases */}
             <div className="bg-white p-4 shadow-lg">
-              <img src="/placeholder.svg" alt="Product 1" className="w-full h-64 object-cover mb-4" />
+              <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Casual Shirt" className="w-full h-64 object-cover mb-4" />
               <h3 className="text-xl font-bold mb-2">Casual Shirt</h3>
               <p>Experience this shirt in VR</p>
             </div>
             <div className="bg-white p-4 shadow-lg">
-              <img src="/placeholder.svg" alt="Product 2" className="w-full h-64 object-cover mb-4" />
+              <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Ethnic Dress" className="w-full h-64 object-cover mb-4" />
               <h3 className="text-xl font-bold mb-2">Ethnic Dress</h3>
               <p>Try on this dress virtually</p>
             </div>
             <div className="bg-white p-4 shadow-lg">
-              <img src="/placeholder.svg" alt="Product 3" className="w-full h-64 object-cover mb-4" />
+              <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Modern Jacket" className="w-full h-64 object-cover mb-4" />
               <h3 className="text-xl font-bold mb-2">Modern Jacket</h3>
               <p>See how it looks in different settings</p>
             </div>
